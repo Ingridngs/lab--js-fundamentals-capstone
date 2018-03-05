@@ -9,6 +9,21 @@
  *
 **/
 
+function var (names){
+  
+let names= [ ]
+
+	for (let i = 0; 1 < names.length  ; i ++ ) {
+		names= ({
+			name:[0]
+
+		})
+		
+	}
+}
+
+console.log(names)
+
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

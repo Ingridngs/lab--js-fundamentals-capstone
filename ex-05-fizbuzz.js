@@ -8,6 +8,37 @@
  * - for every number that is a multiple of 3 and 5, return "FizZBuzZ"
 **/
 
+function fizzBuzz(param){
+     let x3 = param % 3;
+     let x5 = param % 5
+
+     if(x3 && x5)
+     	return ".";
+
+     if(!x3 && x5)
+        return "fizz";
+
+     if(x3 && !x5)
+     	return "buzz";
+
+     if(!x3 && !x5)
+     	return "FizZBuzZ";
+
+}
+
+function testAllTo(N){
+
+	if(N < 1)
+		return "";
+	var answer="";
+
+	for(let i = 0; i < N ;i++ )
+	{
+		answer+= singleTest[i];
+	}
+    return answer;
+}
+
 
 
 

@@ -8,6 +8,24 @@
  */
 
 
+function toCamelCase(param){
+	let stringOne = text.toLowerCase().split(" ")	
+
+	for (let i = 0; i < stringOne.length; i++ ) {
+		const letters= stringOne[i].split("");
+		letters[0] = letters [0].toUpperCase;
+		stringOne[i] = letters.join("")
+		
+		
+		}
+	}
+return stringOne.join ("")
+}
+
+
+
+
+
 
 
 

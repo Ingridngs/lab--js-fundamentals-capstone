@@ -6,7 +6,14 @@
  *
 **/
 
-
+function isEven(param ){
+	let number= (param % 2)
+	let result = false 
+	if(number === 0){
+		result = true 
+	}
+ return result	
+}
 
 
 

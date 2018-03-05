@@ -10,7 +10,25 @@
 
 
 
-
+function getWordCount(paragraph) {
+	let finalObject = {}
+	let returnArray = paragraph.split(' ')
+	console.log(primerArray.length)
+	let arrayPalabrasUnicas = []
+	let nuevaPalabra = ''
+	for ( i = 0 ; i < (returnArray.length-1) ; i++ ) {
+		for ( index = 0 ; index < (returnArray.length-1) ; index++ ) {
+			if ( returnArray[i] === returnArray[i]) {
+				nuevaPalabra = returnArray[i]
+			}
+		}
+	arrayPalabrasUnicas.push(nuevaPalabra) 
+	}
+	console.log(arrayPalabrasUnicas.length)
+	return arrayPalabrasUnicas
+}
+const printEx08 = getWordCount(sampleText)
+console.log(printEx08)
 
 
 

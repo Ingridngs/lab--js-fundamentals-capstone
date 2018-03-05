@@ -6,7 +6,19 @@
  *
 **/
 
+function getCapitalLetters (){
+          let array= []
+          let mas= ""
+          let palabra=param
+          console.log(palabra)
+          for( let i=O; i < palabra.length; i ++ ){
+          	if(palabra[i] === palabra[i] .toUpperCase() && palabra[i] !== " "){
 
+          		arrayOne.push(palabra[i])
+          	}
+          }
+     return arrayOne
+}
 
 
 
